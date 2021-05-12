@@ -1,5 +1,6 @@
 """
     Simple face detect app using 2 or more cams.
+    I use Intel's OpenVINO Toolkit and FP16 model face-detection-adas-0001.
 """
 
 from openvino.inference_engine import IENetwork, IECore
